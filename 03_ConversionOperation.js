@@ -53,8 +53,59 @@ let booleanIsLoggedIn3 = Boolean(isLoggedIn3);
 let num=90;
 
 let stringNum= String(num);
-console.log(stringNum); 
-console.log(typeof(stringNum)); // string
+// console.log(stringNum); 
+// console.log(typeof(stringNum)); // string
+
+
+// *****************************Operations*********************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**5); // 2 raised to the power 5.
+// console.log(2/2); // division
+// console.log(2%2); // remainder/mod
+
+let str1 = "Hello";
+let str2 = " World";
+let str3 = str1 + str2;
+// console.log(str3);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2 + 2); // If string is first then all the next values are treated as strings.
+// console.log(1 + 2 + "2"); // if string is last then first operation is done and then string is concetenated.
+
+// console.log(+true); //tricky conversion
+// console.log(+"");   //tricky conversion
+
+// let x= 1;
+// console.log(x);
+// x++;
+// ++x;
+// console.log(x);
+
+let x = 5;
+// console.log(x++);
+// console.log(x);
+
+// console.log(typeof []); // object
+
+// console.log(Array.isArray([])); // true
+
+
+
+
+
+
+
+
+
+
 
 
 
