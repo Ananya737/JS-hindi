@@ -13,3 +13,10 @@ let user1 ={name:"Ananya"};
 let user2 =user1;  // here reference is being copied not the actual value.
 
 console.log(user2.name="Shruti");
+
+
+
+
+
+
+
