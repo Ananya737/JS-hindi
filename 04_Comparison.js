@@ -13,3 +13,6 @@ console.log(undefined < 0);   //false
 
 // Strict Check (===)=> Compares datatypes as well.
 
+
+
+
