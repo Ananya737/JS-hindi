@@ -13,7 +13,7 @@ const sentence = `Hello my name is ${name.toUpperCase()} and I am learning ${lan
 // It is called a template literal because it provides a template-like structure for strings with placeholders, while still being a literal string value.
 
 
-const anotherName = new String("Shruti"); // using the object of String.
+const anotherName = new String("Shruti-01"); // using the object of String.
 // console.log(anotherName[2]);
 // console.log(anotherName.__proto__); // to access String methods (prototype).
 
@@ -29,6 +29,14 @@ const anotherName = new String("Shruti"); // using the object of String.
 // console.log(anotherName.indexOf('t'));  // this method returns index of first occurrence of a character or substring.
 // console.log(anotherName.indexOf('x')); // -1 
 // console.log(anotherName.indexOf('Sh')); // 0
+// console.log(anotherName.substring(0,6)); // substring(startIndex, endIndex) returns a part of the string from startIndex up to (but NOT including) endIndex.
+
+console.log(anotherName.substring(0,10));  // If endIndex is greater than the string length, JavaScript treats it as the string’s length.
+
+console.log(anotherName.substring(-9,6));  // treats negative number as 0.
+
+// substring() extracts a portion of a string between two indexes, excluding the end index, and returns a new string.
+
 
 
 
