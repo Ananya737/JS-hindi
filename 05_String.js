@@ -68,9 +68,37 @@ const goal = "Healing";
 
 //  ************************************************************************************************
 
-// replace() => 
-// includes() => 
-// split() => 
+// replace() => string.replace(searchValue, newValue) -> returns a new string with specified parts replaced, does not change the original string, and can use either a string or regex to find matches.
+
+const hobbies = `dancing reading dancing`; 
+// console.log(hobbies.replace(/dancing/g,"practicing_yoga")); // replaces all occurrences.
+// console.log(hobbies.replace("dancing","practicing_yoga")); // replaces first occurrence.
+
+//***********************************************************************************************
+
+// console.log(hobbies.replaceAll("dancing","painting")); // replaces all occurrences(introduced Node.js → version >= 15).
+
+//***********************************************************************************************
+
+// includes() => checks if a string contains a specified substring and returns true or false.
+
+// console.log(hobbies.includes("dancing", 10));
+
+//***********************************************************************************************
+
+// split() => divides a string into an array of substrings based on a separator and optional limit, without changing the original string.
+
+// console.log(hobbies.split(" "));
+const game = "Badminton";
+// console.log(game.split(""));    
+
+const fruits = `apple,mango:kiwi`;
+console.log(fruits.split(/[,:]/)); // regex separator.
+
+// Regex (Regular Expression) => 
+
+
+
 
 
 
